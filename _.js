@@ -41,16 +41,12 @@ const _ = {
             return false;
         }
 
+    },
+    // Returns an array of words that we given in a string where words are separated by spaces  
+    words(sentence){
+        const sentenceWords = sentence.split(' ');// take all the words separated by space and make them an array
+        return sentenceWords;
     }
-    // Specify 
-    // Parameters (number, start, end)
-    // if end is not provided
-        // start = 0 and end = start
-    // if start is larger than end , swap values
-    // check if number E [start, end)
-        // return true
-    // else
-        // return false
 }
 
 // Do not write or modify code below this line.
